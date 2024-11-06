@@ -25,10 +25,9 @@ apply plugin: "com.android.library"
 apply plugin: "kotlin-android"
 
 android {
-    if (project.android.hasProperty("namespace")) {
-        namespace = "global_corporation.azkadev.whisper_flutter"
-    }
 
+    namespace = "global_corporation.azkadev.whisper_flutter"
+    
     compileSdk = 34
 
     compileOptions {
